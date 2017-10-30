@@ -1,0 +1,20 @@
+{
+    "port":4242,
+    "allowedRoles": ["app-monitor"],
+    "sessionSecret": "Yrsxekifdk4tnfWbrGdxRLQw",
+    "auth": {
+        "username": "app-monitor",
+        "password": "app-monitor"
+    },
+    "rabbitmq": {
+        "username": "guest",
+        "password": "guest"
+    },
+    "redis": {
+        "password": "foobared",
+        "db": "1"
+    },
+    "bucket": {
+        "name": "subforce-image-dev"
+    }
+}

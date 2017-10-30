@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  background-color: #ffffff; }
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #fecb9c;
+  margin: 50px 0; }
+  h1 span {
+    border: 2px solid #fecb9c;
+    padding: 10px; }
+
+.center-content {
+  text-align: center;
+  width: 100%; }
+  .center-content .menu {
+    height: 3rem;
+    width: 70%;
+    display: inline-flex;
+    margin-bottom: 20px; }
+    .center-content .menu .menu-item {
+      width: 30%;
+      height: 3rem;
+      background-color: #fecb9c;
+      border: 4px solid #fecb9c;
+      margin: 0 1.5%;
+      border-radius: .5rem; }
+      .center-content .menu .menu-item:hover {
+        border-color: pink; }
+      .center-content .menu .menu-item:active {
+        background-color: pink; }
+      .center-content .menu .menu-item a:hover {
+        text-decoration: none; }
+      .center-content .menu .menu-item a:visited {
+        text-decoration: none; }
+      .center-content .menu .menu-item a .menu-link {
+        width: 100%;
+        height: 100%;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 7px; }
+  .center-content .article img {
+    width: 70%;
+    padding: 20px; }
+  .center-content .article span {
+    font-style: italic;
+    font-size: 12px;
+    color: grey; }
+  .center-content .presentation img {
+    border-radius: 20rem;
+    padding: 20px;
+    width: 350px; }
+  .center-content .presentation .study {
+    font-style: italic;
+    font-size: 14px;
+    color: grey; }

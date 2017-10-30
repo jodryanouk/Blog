@@ -1,0 +1,8 @@
+{
+    "rabbitmq": {
+        "username": "root"
+    },
+    "bucket": {
+        "name": "subforce-image-staging"
+    }
+}
